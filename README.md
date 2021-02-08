@@ -1,2 +1,9 @@
-# Game-Features-And-Popularity-Prediction-Model
-Data analysis on game features and their popularity on Steam, using univariate and multivariate data analysis, as well as quantile regression and classification machine learning models. 
+# Game Features and Popularity Project
+
+This a data science project that analyzes data about game features and was my final project for COGS 108 at UCSD (Data Science in Practice). 
+
+This project analyzes various game features and their popularity on Steam. These features included the number of owners of the game, the genres, number of recommendations, and more. The goal of the project was to determine whether or not certain game features were correlated with its popularity and number of owners, and if we could use those features to predict the popularity of future Steam games. The project uses univariate data analysis to both visualize in graphs and understand the distribution of certain game features. Multivariate data analysis is also used to visualize and understand the relationship between various game features and the game's popularity. After analyzing our variables, we used machine learning to create prediction models of popularity based on certain features. We trained a classification model to predict whether a game was popular or not, predicting whether or not the game's feature met a threshold of number of owners. We also performed quantile regression to get more specific predictions on a game's popularity. 
+
+As a result of our project, we determined that there were positive correlations between the number of owners and certain game featues, such as metacritic score and number of recommendations. We also discovered that certain genres had the most games, however, those genres lacked in average number of owners per game compared to more popular genres, such as Massively Multiplayer games. The classification model trained had a sixty-eight percent accuracy rate in predicting whether a game was would have more owners than the average number of owners per game. The quantile regression can also be used to predict a range of number of owners a game would have based on certain features. 
+
+The final project can be viewed in the FinalProject.ipynb file. 
